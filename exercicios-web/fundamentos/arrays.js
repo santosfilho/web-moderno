@@ -12,5 +12,7 @@ console.log(valores)
 console.log(valores.pop())
 delete valores[0]
 console.log(valores)
+valores[0] = 999
+console.log(valores)
 
 console.log(typeof valores)
