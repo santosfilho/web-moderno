@@ -23,3 +23,5 @@ console.log(logradouro, numero, cep)
 
 const { conta: { ag, num } } = pessoa
 console.log(ag, num)
+
+console.log(pessoa)

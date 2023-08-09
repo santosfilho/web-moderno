@@ -9,4 +9,5 @@ function exec() {
     minhaFuncao()
 }
 
+minhaFuncao() 
 exec()

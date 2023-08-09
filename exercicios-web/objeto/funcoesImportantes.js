@@ -12,6 +12,8 @@ Object.entries(pessoa).forEach(([chave, valor]) => {
     console.log(`${chave}: ${valor}`)
 })
 
+console.log("===================")
+
 Object.defineProperty(pessoa, 'dataNascimento', {
     enumerable: true,
     writable: false,
@@ -26,6 +28,7 @@ console.log(Object.keys(pessoa))
 const dest = { a: 1 }
 const o1 = { b: 2 }
 const o2 = { c: 3, a: 4 }
+// Object.assign vai concatenar todos os objetos, caso já exista, ele sobrescreve o atributo
 const obj = Object.assign(dest, o1, o2)
 
 Object.freeze(obj)

@@ -1,4 +1,5 @@
 // estrategia 1 para gerar valor padrão
+//caso o a,b ou c não seja informado ou seja 0, ele pegara o valor padrão que seria 1 nesse caso
 function soma1(a, b, c) {
     a = a || 1
     b = b || 1

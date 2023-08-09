@@ -9,6 +9,15 @@ console.log(alunos.map(a => a.nota))
 const resultado = alunos.map(a => a.nota).reduce(function(acumulador, atual) {
     console.log(acumulador, atual)
     return acumulador + atual
-}, 0)
+}
+,0)//valor iniciar, caso n seja informado ele pega o primeiro elemento
 
 console.log(resultado)
+
+console.log(alunos.map(a => a.bolsista).reduce((acumulador, atual) => {
+    return acumulador && atual
+}))
+
+console.log(alunos.map(a => a.bolsista).reduce((acumulador, atual) => {
+    return acumulador || atual
+}))

@@ -1,7 +1,7 @@
 let a = 3
 
 global.b = 123
-
+let x =1
 this.c = 456
 this.d = false
 this.e = 'teste'

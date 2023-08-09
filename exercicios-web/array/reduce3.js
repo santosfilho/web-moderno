@@ -1,3 +1,4 @@
+
 Array.prototype.reduce2 = function(callback, valorInicial) {
     const indiceInicial = valorInicial ? 0 : 1
     let acumulador = valorInicial || this[0]
